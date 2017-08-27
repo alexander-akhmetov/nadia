@@ -7,8 +7,8 @@ defmodule Nadia.Model do
   """
 
   defmodule User do
-    defstruct id: nil, first_name: nil, last_name: nil, username: nil
-    @type t :: %User{id: integer, first_name: binary, last_name: binary, username: binary}
+    defstruct id: nil, first_name: nil, last_name: nil, username: nil, language_code: nil
+    @type t :: %User{id: integer, first_name: binary, last_name: binary, username: binary, language_code: binary}
   end
 
   defmodule Chat do
